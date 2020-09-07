@@ -56,7 +56,7 @@ gst_3d_camera_arcball_init (Gst3DCameraArcball * self)
   self->theta = 5.0;
   self->phi = 5.0;
 
-  self->zoom_step = 0.95;
+  self->zoom_step = 0.98;
   self->min_fov = 45;
   self->max_fov = 110;
 }

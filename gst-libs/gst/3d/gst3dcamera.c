@@ -42,9 +42,9 @@ G_DEFINE_TYPE_WITH_CODE (Gst3DCamera, gst_3d_camera, GST_TYPE_OBJECT,
 void
 gst_3d_camera_init (Gst3DCamera * self)
 {
-  self->fov = 45.0;
+  self->fov = 90.0;
   //self->aspect = 4.0 / 3.0;
-  self->aspect = 16.0 / 9.0;
+  self->aspect = 2.0 / 1.0;
   self->znear = 0.01;
   self->zfar = 1000.0;
 
